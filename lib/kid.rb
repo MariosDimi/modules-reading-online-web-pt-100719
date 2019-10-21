@@ -5,9 +5,7 @@ class Kid
   include Dance 
   
   attr_accessor :name 
-  extend MetaDancing
-end
-  
+
   def initialize(name)
     @name = name
   end
