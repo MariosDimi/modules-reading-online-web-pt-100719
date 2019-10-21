@@ -14,17 +14,17 @@ end
 
 angelina = Dancer.new 
 angelina.twirl
-// returns "I'm twirling!"
+// return "I'm twirling!"
 angelina.jump
-// returns "Look how high I'm jumping!"
+// return "Look how high I'm jumping!"
 
 buster = Kid.new
 buster.jump
-// returns "Look how high I'm jumping!"
+// return "Look how high I'm jumping!"
 buster.take_a_bow
-// returns "Thank you, thank you. It was a pleasure to dance for you all."
+// return "Thank you, thank you. It was a pleasure to dance for you all."
 
 Dancer.metadata
-// returns "This class produces objects that love to dance."
+// return "This class produces objects that love to dance."
 Kid.metadata
-// returns "This class produces objects that love to dance."
+// return "This class produces objects that love to dance."
